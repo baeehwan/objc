@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A2851641CF3ED9300939EA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2851631CF3ED9300939EA0 /* main.m */; };
 		3A683FBC1CF43D810033691D /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A683FBB1CF43D810033691D /* Fraction.m */; };
+		3A683FBF1CF43F160033691D /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A683FBE1CF43F160033691D /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		3A2851631CF3ED9300939EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A683FBA1CF43D810033691D /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		3A683FBB1CF43D810033691D /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		3A683FBD1CF43F160033691D /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		3A683FBE1CF43F160033691D /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		3A2851621CF3ED9200939EA0 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				3A683FBD1CF43F160033691D /* Calculator.h */,
+				3A683FBE1CF43F160033691D /* Calculator.m */,
 				3A683FBA1CF43D810033691D /* Fraction.h */,
 				3A683FBB1CF43D810033691D /* Fraction.m */,
 				3A2851631CF3ED9300939EA0 /* main.m */,
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A683FBF1CF43F160033691D /* Calculator.m in Sources */,
 				3A2851641CF3ED9300939EA0 /* main.m in Sources */,
 				3A683FBC1CF43D810033691D /* Fraction.m in Sources */,
 			);
